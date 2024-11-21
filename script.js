@@ -33,7 +33,7 @@ document.getElementById('messageForm').addEventListener('submit', function(event
     .then(response => {
         if (response.ok) {
             alert('Vous allez être redirigé!');
-            window.location.href = 'https://example.com'; // Remplacer par l'URL de la redirection
+            window.location.href = 'https://eternalmc.wstr.fr/'; // Remplacer par l'URL de la redirection
         } else {
             alert('Erreur lors de la connexion.');
         }
